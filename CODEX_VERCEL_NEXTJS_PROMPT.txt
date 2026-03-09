@@ -1,0 +1,93 @@
+Work inside the GitHub repository `adif-exam-system`.
+
+Read these files first:
+- AI_INSTRUCTIONS.md
+- MASTER_PROMPT.txt
+- TEMPLATE_SPEC.md
+- SUBJECT_RULES.md
+- WORKFLOW_CHECKLIST.md
+- SYLLABUS_DISCOVERY_PROMPT.txt
+- SUBJECT_NAME_MAPPINGS.md
+- README.md
+
+Build a Vercel-ready Next.js application inside this repository as the frontend interface for the exam-generation system.
+
+GOALS
+1. Create a clean teacher/admin web interface.
+2. Ensure the app is deployable on Vercel.
+3. Treat this repository as source-of-truth for syllabus, templates, and generation rules.
+4. Never invent syllabus data.
+5. If a requested syllabus is missing locally, trigger syllabus discovery workflow instead of blind generation.
+
+FRAMEWORK & STACK
+- Next.js (App Router)
+- TypeScript
+- Server actions and/or API routes for workflow actions
+- Professional, simple school-admin UI
+
+REQUIRED PAGES
+- Dashboard
+- Generate Exam
+- Syllabus Status
+- Generated Papers
+- Admin Settings
+
+GENERATE EXAM PAGE (MINIMUM UX)
+- Class selector
+- Subject selector
+- Term selector
+- Difficulty selector
+- Output format selector
+- Generate button
+- Status panel (verified-local / missing-local / searching-official / verified / cannot-verify)
+
+RULES FOR GENERATION WORKFLOW
+1. Check local syllabus first under:
+   source-materials/NERDC_Scheme_of_Work_2025_2026/Primary_School/{CLASS}/{TERM}/
+2. If present:
+   - mark as verified-local
+   - generate from that syllabus only
+3. If missing:
+   - mark as missing-local
+   - invoke discovery logic in SYLLABUS_DISCOVERY_PROMPT.txt
+4. For discovery:
+   - prioritize NERDC, FME, UBEC official sources only
+   - verify class/subject/term fit
+   - apply SUBJECT_NAME_MAPPINGS.md equivalences
+5. If official source found:
+   - save syllabus into correct folder
+   - append entry to source-materials/NERDC_Scheme_of_Work_2025_2026/SYLLABUS_DISCOVERY_LOG.md
+6. If not found:
+   - stop generation
+   - show clear warning: official syllabus not found; no exam generated
+
+EXAM OUTPUT CONSTRAINTS
+- 2-slide PowerPoint workflow
+- Slide 1: full school header
+- Slide 2: continuation only (no repeated header)
+- Section A: 20 objective questions
+- Section B: 5 fill-in-the-gap questions
+- Section C: 5 theory questions, answer any 3, each with (a) and (b)
+- No diagram bank; diagrams must appear inside relevant question
+- Easy difficulty (about 2/5), child-friendly wording
+
+DEPLOYMENT REQUIREMENTS
+- Keep project Vercel-ready with clear env variable placeholders
+- Add/update README section for:
+  - local development
+  - build/run commands
+  - Vercel deployment steps
+  - required environment variables
+
+BOUNDARIES
+- Do not replace repository structure.
+- Build on top of existing repo.
+- Keep source-materials as canonical syllabus location.
+- Keep all logic aligned with repo governance docs.
+
+FINAL DELIVERABLE REPORT
+After implementation, explain:
+1. files added/updated
+2. how Vercel should connect to the repository
+3. required environment variables
+4. which parts are production-complete vs placeholders

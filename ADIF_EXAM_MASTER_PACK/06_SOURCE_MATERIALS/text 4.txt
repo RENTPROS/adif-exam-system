@@ -1,0 +1,104 @@
+You are to generate Third Term Examination booklets for the specified class or classes.
+
+The official syllabus for each class has already been provided.
+Do NOT search online.
+Do NOT introduce external topics.
+All questions must strictly reflect the provided syllabus for each class.
+
+--------------------------------------------
+GENERAL RULES (APPLIES TO ALL CLASSES)
+--------------------------------------------
+
+• Classes may include: Basic 1, Basic 2, Basic 3, Basic 4, Basic 5, Basic 6.
+• Subjects will be specified per class.
+• Each subject must strictly follow the ADIF structural format below.
+• Difficulty level must match the cognitive level of the class.
+
+--------------------------------------------
+STRUCTURE (FOR EVERY SUBJECT)
+--------------------------------------------
+
+Each subject must occupy exactly TWO pages.
+
+--------------------------------------------
+PAGE 1 CONTENT
+--------------------------------------------
+
+Header (centered):
+
+ADIF SCHOOL  
+9, Ashafa Egemo Street, Baba Dada Bus Stop, Egan, Lagos  
+3RD TERM EXAMINATION 2025/2026 ACADEMIC SESSION  
+Motto: Knowledge is Light  
+
+Class: [Insert Class]  
+Subject: [Insert Subject]  
+First Name: ____________________  
+Surname: ____________________  
+
+SECTION A — OBJECTIVES
+
+• Exactly 20 objective questions.
+• Options A, B, C, D must be on the SAME LINE as the question.
+• Format strictly:
+
+1. Question text ______ A. ___ B. ___ C. ___ D. ___
+
+• No option may appear on a separate line.
+• Questions must align strictly with third-term syllabus topics.
+• Difficulty must match class level:
+    - Basic 1–2 → Very simple recall & recognition
+    - Basic 3–4 → Basic application
+    - Basic 5–6 → Moderate reasoning (unless otherwise specified)
+
+--------------------------------------------
+PAGE 2 CONTENT
+--------------------------------------------
+
+SECTION B — FILL IN THE GAPS
+• Exactly 5 questions.
+• Short, direct responses.
+• Based strictly on syllabus.
+
+SECTION C — THEORY
+
+• Exactly 4 theory questions.
+• Include instruction:
+
+  "Answer any THREE (3) questions."
+
+• Each question must contain sub-parts:
+
+1(a)
+   (b)
+
+2(a)
+   (b)
+
+3(a)
+   (b)
+
+4(a)
+   (b)
+
+--------------------------------------------
+FORMAT CONTROL
+--------------------------------------------
+
+• No subject must merge into another.
+• Maintain tight professional spacing.
+• Maintain uniform formatting across all classes.
+• Maintain consistent numbering style.
+• Maintain exactly 2 pages per subject.
+• Maintain clean examination-board presentation.
+
+--------------------------------------------
+QUALITY CONTROL BEFORE OUTPUT
+--------------------------------------------
+
+• Confirm alignment with syllabus.
+• Confirm difficulty matches class.
+• Confirm Section A inline options rule.
+• Confirm 4 theory questions.
+• Confirm “Answer any THREE (3)” instruction is present.
+• Confirm 2-page rule compliance.

@@ -1,0 +1,406 @@
+Class,Subject,Week,Topic
+Primary 1,Mathematics,Week 1,Addition of 2-digit numbers
+Primary 1,Mathematics,Week 2,Subtraction
+Primary 1,Mathematics,Week 3,Money (Naira)
+Primary 1,Mathematics,Week 4,Time
+Primary 1,Mathematics,Week 5,Measurement (Length)
+Primary 1,Mathematics,Week 6,Weight
+Primary 1,Mathematics,Week 7,Capacity
+Primary 1,Mathematics,Week 8,Geometry (Shapes)
+Primary 1,Mathematics,Week 9,Data Collection
+Primary 1,Mathematics,Week 10,Revision
+Primary 1,Mathematics,Week 11,Examination
+Primary 1,English Studies,Week 1,Phonics ( blends)
+Primary 1,English Studies,Week 2,Vocabulary building
+Primary 1,English Studies,Week 3,Reading comprehension
+Primary 1,English Studies,Week 4,Creative writing
+Primary 1,English Studies,Week 5,Grammar (tenses)
+Primary 1,English Studies,Week 6,Poetry
+Primary 1,English Studies,Week 7,Drama
+Primary 1,English Studies,Week 8,Letter writing
+Primary 1,English Studies,Week 9,Summary writing
+Primary 1,English Studies,Week 10,Revision
+Primary 1,English Studies,Week 11,Examination
+Primary 1,Basic Science & Technology,Week 1,Plants around us
+Primary 1,Basic Science & Technology,Week 2,Animals around us
+Primary 1,Basic Science & Technology,Week 3,Water
+Primary 1,Basic Science & Technology,Week 4,Air
+Primary 1,Basic Science & Technology,Week 5,Weather
+Primary 1,Basic Science & Technology,Week 6,Safety at home
+Primary 1,Basic Science & Technology,Week 7,Simple machines
+Primary 1,Basic Science & Technology,Week 8,Energy
+Primary 1,Basic Science & Technology,Week 9,Revision
+Primary 1,Basic Science & Technology,Week 10,Practical
+Primary 1,Basic Science & Technology,Week 11,Examination
+Primary 1,Civic Education,Week 1,Respect for elders
+Primary 1,Civic Education,Week 2,Good habits
+Primary 1,Civic Education,Week 3,Community helpers
+Primary 1,Civic Education,Week 4,National symbols
+Primary 1,Civic Education,Week 5,Rights and duties
+Primary 1,Civic Education,Week 6,Revision
+Primary 1,Civic Education,Week 7,Examination
+Primary 1,Social Studies,Week 1,Family
+Primary 1,Social Studies,Week 2,School
+Primary 1,Social Studies,Week 3,Neighborhood
+Primary 1,Social Studies,Week 4,Culture
+Primary 1,Social Studies,Week 5,Transportation
+Primary 1,Social Studies,Week 6,Communication
+Primary 1,Social Studies,Week 7,Revision
+Primary 1,Social Studies,Week 8,Examination
+Primary 1,Cultural & Creative Arts,Week 1,Drawing
+Primary 1,Cultural & Creative Arts,Week 2,Coloring
+Primary 1,Cultural & Creative Arts,Week 3,Singing
+Primary 1,Cultural & Creative Arts,Week 4,Dancing
+Primary 1,Cultural & Creative Arts,Week 5,Craft work
+Primary 1,Cultural & Creative Arts,Week 6,Drama
+Primary 1,Cultural & Creative Arts,Week 7,Revision
+Primary 1,Cultural & Creative Arts,Week 8,Examination
+Primary 1,Physical & Health Education,Week 1,Running
+Primary 1,Physical & Health Education,Week 2,Jumping
+Primary 1,Physical & Health Education,Week 3,Throwing
+Primary 1,Physical & Health Education,Week 4,Catching
+Primary 1,Physical & Health Education,Week 5,Team games
+Primary 1,Physical & Health Education,Week 6,Hygiene
+Primary 1,Physical & Health Education,Week 7,Revision
+Primary 1,Physical & Health Education,Week 8,Examination
+Primary 1,Computer Studies,Week 1,Parts of computer
+Primary 1,Computer Studies,Week 2,Keyboard practice
+Primary 1,Computer Studies,Week 3,Mouse skills
+Primary 1,Computer Studies,Week 4,Drawing with computer
+Primary 1,Computer Studies,Week 5,Revision
+Primary 1,Computer Studies,Week 6,Examination
+Primary 1,Security Education,Week 1,Safety at home
+Primary 1,Security Education,Week 2,Safety in school
+Primary 1,Security Education,Week 3,Stranger danger
+Primary 1,Security Education,Week 4,Emergency numbers
+Primary 1,Security Education,Week 5,Revision
+Primary 1,Security Education,Week 6,Examination
+Primary 1,History,Week 1,My family history
+Primary 1,History,Week 2,Famous Nigerians
+Primary 1,History,Week 3,Traditional rulers
+Primary 1,History,Week 4,Revision
+Primary 1,History,Week 5,Examination
+Primary 1,Christian Religious Knowledge,Week 1,Stories of Jesus
+Primary 1,Christian Religious Knowledge,Week 2,Prayer
+Primary 1,Christian Religious Knowledge,Week 3,Church activities
+Primary 1,Christian Religious Knowledge,Week 4,Revision
+Primary 1,Christian Religious Knowledge,Week 5,Examination
+Primary 1,Islamic Religious Studies,Week 1,Quranic verses
+Primary 1,Islamic Religious Studies,Week 2,Hadith
+Primary 1,Islamic Religious Studies,Week 3,Islamic practices
+Primary 1,Islamic Religious Studies,Week 4,Revision
+Primary 1,Islamic Religious Studies,Week 5,Examination
+Primary 1,Yoruba/Igbo/Hausa,Week 1,Alphabet
+Primary 1,Yoruba/Igbo/Hausa,Week 2,Vocabulary
+Primary 1,Yoruba/Igbo/Hausa,Week 3,Folktales
+Primary 1,Yoruba/Igbo/Hausa,Week 4,Songs
+Primary 1,Yoruba/Igbo/Hausa,Week 5,Revision
+Primary 1,Yoruba/Igbo/Hausa,Week 6,Examination
+Primary 2,Mathematics,Week 1,Multiplication
+Primary 2,Mathematics,Week 2,Division
+Primary 2,Mathematics,Week 3,Money (kobo)
+Primary 2,Mathematics,Week 4,Time (half past)
+Primary 2,Mathematics,Week 5,Measurement
+Primary 2,Mathematics,Week 6,Geometry
+Primary 2,Mathematics,Week 7,Data presentation
+Primary 2,Mathematics,Week 8,Revision
+Primary 2,Mathematics,Week 9,Examination
+Primary 2,English Studies,Week 1,Phonics (digraphs)
+Primary 2,English Studies,Week 2,Vocabulary
+Primary 2,English Studies,Week 3,Comprehension passages
+Primary 2,English Studies,Week 4,Essay writing
+Primary 2,English Studies,Week 5,Grammar
+Primary 2,English Studies,Week 6,Poetry appreciation
+Primary 2,English Studies,Week 7,Drama
+Primary 2,English Studies,Week 8,Revision
+Primary 2,English Studies,Week 9,Examination
+Primary 2,Basic Science & Technology,Week 1,Living things
+Primary 2,Basic Science & Technology,Week 2,Non-living things
+Primary 2,Basic Science & Technology,Week 3,Soil
+Primary 2,Basic Science & Technology,Week 4,Rocks
+Primary 2,Basic Science & Technology,Week 5,Revision
+Primary 2,Basic Science & Technology,Week 6,Examination
+Primary 2,Civic Education,Week 1,Responsibility
+Primary 2,Civic Education,Week 2,Leadership
+Primary 2,Civic Education,Week 3,National values
+Primary 2,Civic Education,Week 4,Revision
+Primary 2,Civic Education,Week 5,Examination
+Primary 2,Social Studies,Week 1,Occupations
+Primary 2,Social Studies,Week 2,Festivals
+Primary 2,Social Studies,Week 3,Environment
+Primary 2,Social Studies,Week 4,Revision
+Primary 2,Social Studies,Week 5,Examination
+Primary 2,Cultural & Creative Arts,Week 1,Pattern making
+Primary 2,Cultural & Creative Arts,Week 2,Music
+Primary 2,Cultural & Creative Arts,Week 3,Movement
+Primary 2,Cultural & Creative Arts,Week 4,Revision
+Primary 2,Cultural & Creative Arts,Week 5,Examination
+Primary 2,Physical & Health Education,Week 1,Athletics
+Primary 2,Physical & Health Education,Week 2,Games
+Primary 2,Physical & Health Education,Week 3,Health habits
+Primary 2,Physical & Health Education,Week 4,Revision
+Primary 2,Physical & Health Education,Week 5,Examination
+Primary 2,Computer Studies,Week 1,Typing skills
+Primary 2,Computer Studies,Week 2,MS Paint
+Primary 2,Computer Studies,Week 3,Internet basics
+Primary 2,Computer Studies,Week 4,Revision
+Primary 2,Computer Studies,Week 5,Examination
+Primary 2,Security Education,Week 1,Road safety
+Primary 2,Security Education,Week 2,Fire safety
+Primary 2,Security Education,Week 3,Personal safety
+Primary 2,Security Education,Week 4,Revision
+Primary 2,Security Education,Week 5,Examination
+Primary 2,History,Week 1,Nigerian heroes
+Primary 2,History,Week 2,Independence
+Primary 2,History,Week 3,Revision
+Primary 2,History,Week 4,Examination
+Primary 2,Christian Religious Knowledge,Week 1,Bible stories
+Primary 2,Christian Religious Knowledge,Week 2,Christian values
+Primary 2,Christian Religious Knowledge,Week 3,Revision
+Primary 2,Christian Religious Knowledge,Week 4,Examination
+Primary 2,Islamic Religious Studies,Week 1,Prophet's stories
+Primary 2,Islamic Religious Studies,Week 2,Five pillars
+Primary 2,Islamic Religious Studies,Week 3,Revision
+Primary 2,Islamic Religious Studies,Week 4,Examination
+Primary 2,Yoruba/Igbo/Hausa,Week 1,Sentence structure
+Primary 2,Yoruba/Igbo/Hausa,Week 2,Proverbs
+Primary 2,Yoruba/Igbo/Hausa,Week 3,Culture
+Primary 2,Yoruba/Igbo/Hausa,Week 4,Revision
+Primary 2,Yoruba/Igbo/Hausa,Week 5,Examination
+Primary 3,Mathematics,Week 1,Fractions
+Primary 3,Mathematics,Week 2,Decimals
+Primary 3,Mathematics,Week 3,Money problems
+Primary 3,Mathematics,Week 4,Time problems
+Primary 3,Mathematics,Week 5,Perimeter
+Primary 3,Mathematics,Week 6,Area
+Primary 3,Mathematics,Week 7,Volume
+Primary 3,Mathematics,Week 8,Graphs
+Primary 3,Mathematics,Week 9,Revision
+Primary 3,Mathematics,Week 10,Examination
+Primary 3,English Studies,Week 1,Advanced phonics
+Primary 3,English Studies,Week 2,Reading skills
+Primary 3,English Studies,Week 3,Composition
+Primary 3,English Studies,Week 4,Grammar (parts of speech)
+Primary 3,English Studies,Week 5,Literature
+Primary 3,English Studies,Week 6,Summary
+Primary 3,English Studies,Week 7,Revision
+Primary 3,English Studies,Week 8,Examination
+Primary 3,Basic Science & Technology,Week 1,Human body
+Primary 3,Basic Science & Technology,Week 2,Health
+Primary 3,Basic Science & Technology,Week 3,Environment
+Primary 3,Basic Science & Technology,Week 4,Technology
+Primary 3,Basic Science & Technology,Week 5,Revision
+Primary 3,Basic Science & Technology,Week 6,Examination
+Primary 3,Civic Education,Week 1,Democracy
+Primary 3,Civic Education,Week 2,Governance
+Primary 3,Civic Education,Week 3,Citizenship
+Primary 3,Civic Education,Week 4,Revision
+Primary 3,Civic Education,Week 5,Examination
+Primary 3,Social Studies,Week 1,Nigerian culture
+Primary 3,Social Studies,Week 2,Government
+Primary 3,Social Studies,Week 3,Economy
+Primary 3,Social Studies,Week 4,Revision
+Primary 3,Social Studies,Week 5,Examination
+Primary 3,Cultural & Creative Arts,Week 1,Art techniques
+Primary 3,Cultural & Creative Arts,Week 2,Music theory
+Primary 3,Cultural & Creative Arts,Week 3,Drama production
+Primary 3,Cultural & Creative Arts,Week 4,Revision
+Primary 3,Cultural & Creative Arts,Week 5,Examination
+Primary 3,Physical & Health Education,Week 1,Sports
+Primary 3,Physical & Health Education,Week 2,First aid
+Primary 3,Physical & Health Education,Week 3,Nutrition
+Primary 3,Physical & Health Education,Week 4,Revision
+Primary 3,Physical & Health Education,Week 5,Examination
+Primary 3,Computer Studies,Week 1,MS Word basics
+Primary 3,Computer Studies,Week 2,Internet safety
+Primary 3,Computer Studies,Week 3,Email
+Primary 3,Computer Studies,Week 4,Revision
+Primary 3,Computer Studies,Week 5,Examination
+Primary 3,Security Education,Week 1,Disaster management
+Primary 3,Security Education,Week 2,Security agencies
+Primary 3,Security Education,Week 3,Revision
+Primary 3,Security Education,Week 4,Examination
+Primary 3,History,Week 1,Pre-colonial Nigeria
+Primary 3,History,Week 2,Colonial period
+Primary 3,History,Week 3,Revision
+Primary 3,History,Week 4,Examination
+Primary 3,Christian Religious Knowledge,Week 1,Life of Jesus
+Primary 3,Christian Religious Knowledge,Week 2,Early church
+Primary 3,Christian Religious Knowledge,Week 3,Revision
+Primary 3,Christian Religious Knowledge,Week 4,Examination
+Primary 3,Islamic Religious Studies,Week 1,Life of Prophet
+Primary 3,Islamic Religious Studies,Week 2,Islamic civilization
+Primary 3,Islamic Religious Studies,Week 3,Revision
+Primary 3,Islamic Religious Studies,Week 4,Examination
+Primary 3,Yoruba/Igbo/Hausa,Week 1,Essay writing
+Primary 3,Yoruba/Igbo/Hausa,Week 2,Poetry
+Primary 3,Yoruba/Igbo/Hausa,Week 3,Drama
+Primary 3,Yoruba/Igbo/Hausa,Week 4,Revision
+Primary 3,Yoruba/Igbo/Hausa,Week 5,Examination
+Primary 4,Mathematics,Week 1,Fractions (advanced)
+Primary 4,Mathematics,Week 2,Decimals
+Primary 4,Mathematics,Week 3,Percentages
+Primary 4,Mathematics,Week 4,Ratio
+Primary 4,Mathematics,Week 5,Proportion
+Primary 4,Mathematics,Week 6,Geometry (angles)
+Primary 4,Mathematics,Week 7,Statistics
+Primary 4,Mathematics,Week 8,Algebra basics
+Primary 4,Mathematics,Week 9,Revision
+Primary 4,Mathematics,Week 10,Examination
+Primary 4,English Studies,Week 1,Comprehension strategies
+Primary 4,English Studies,Week 2,Essay types
+Primary 4,English Studies,Week 3,Letter writing
+Primary 4,English Studies,Week 4,Grammar (advanced)
+Primary 4,English Studies,Week 5,Literature in English
+Primary 4,English Studies,Week 6,Speech work
+Primary 4,English Studies,Week 7,Revision
+Primary 4,English Studies,Week 8,Examination
+Primary 4,Basic Science & Technology,Week 1,Matter
+Primary 4,Basic Science & Technology,Week 2,Energy forms
+Primary 4,Basic Science & Technology,Week 3,Ecosystem
+Primary 4,Basic Science & Technology,Week 4,Technology & society
+Primary 4,Basic Science & Technology,Week 5,Revision
+Primary 4,Basic Science & Technology,Week 6,Examination
+Primary 4,Civic Education,Week 1,Human rights
+Primary 4,Civic Education,Week 2,Constitution
+Primary 4,Civic Education,Week 3,National development
+Primary 4,Civic Education,Week 4,Revision
+Primary 4,Civic Education,Week 5,Examination
+Primary 4,Social Studies,Week 1,Nigeria and the world
+Primary 4,Social Studies,Week 2,International relations
+Primary 4,Social Studies,Week 3,Global issues
+Primary 4,Social Studies,Week 4,Revision
+Primary 4,Social Studies,Week 5,Examination
+Primary 4,Cultural & Creative Arts,Week 1,Visual arts
+Primary 4,Cultural & Creative Arts,Week 2,Performing arts
+Primary 4,Cultural & Creative Arts,Week 3,Cultural heritage
+Primary 4,Cultural & Creative Arts,Week 4,Revision
+Primary 4,Cultural & Creative Arts,Week 5,Examination
+Primary 4,Physical & Health Education,Week 1,Team sports
+Primary 4,Physical & Health Education,Week 2,Individual sports
+Primary 4,Physical & Health Education,Week 3,Health education
+Primary 4,Physical & Health Education,Week 4,Revision
+Primary 4,Physical & Health Education,Week 5,Examination
+Primary 4,Computer Studies,Week 1,MS Excel basics
+Primary 4,Computer Studies,Week 2,Presentation software
+Primary 4,Computer Studies,Week 3,Coding basics
+Primary 4,Computer Studies,Week 4,Revision
+Primary 4,Computer Studies,Week 5,Examination
+Primary 4,Security Education,Week 1,National security
+Primary 4,Security Education,Week 2,Cyber security
+Primary 4,Security Education,Week 3,Revision
+Primary 4,Security Education,Week 4,Examination
+Primary 4,History,Week 1,Nigeria since independence
+Primary 4,History,Week 2,African history
+Primary 4,History,Week 3,Revision
+Primary 4,History,Week 4,Examination
+Primary 4,Christian Religious Knowledge,Week 1,Christian ethics
+Primary 4,Christian Religious Knowledge,Week 2,Church history
+Primary 4,Christian Religious Knowledge,Week 3,Revision
+Primary 4,Christian Religious Knowledge,Week 4,Examination
+Primary 4,Islamic Religious Studies,Week 1,Islamic jurisprudence
+Primary 4,Islamic Religious Studies,Week 2,Islamic history
+Primary 4,Islamic Religious Studies,Week 3,Revision
+Primary 4,Islamic Religious Studies,Week 4,Examination
+Primary 4,Yoruba/Igbo/Hausa,Week 1,Advanced composition
+Primary 4,Yoruba/Igbo/Hausa,Week 2,Literature
+Primary 4,Yoruba/Igbo/Hausa,Week 3,Oral traditions
+Primary 4,Yoruba/Igbo/Hausa,Week 4,Revision
+Primary 4,Yoruba/Igbo/Hausa,Week 5,Examination
+Primary 4,Agricultural Science,Week 1,Crop farming
+Primary 4,Agricultural Science,Week 2,Animal husbandry
+Primary 4,Agricultural Science,Week 3,Farm tools
+Primary 4,Agricultural Science,Week 4,Revision
+Primary 4,Agricultural Science,Week 5,Examination
+Primary 4,Home Economics,Week 1,Food and nutrition
+Primary 4,Home Economics,Week 2,Clothing
+Primary 4,Home Economics,Week 3,Home management
+Primary 4,Home Economics,Week 4,Revision
+Primary 4,Home Economics,Week 5,Examination
+Primary 4,French Language,Week 1,Vocabulary
+Primary 4,French Language,Week 2,Grammar
+Primary 4,French Language,Week 3,Conversation
+Primary 4,French Language,Week 4,Revision
+Primary 4,French Language,Week 5,Examination
+Primary 5,Mathematics,Week 1,Algebra
+Primary 5,Mathematics,Week 2,Geometry (circles)
+Primary 5,Mathematics,Week 3,Statistics
+Primary 5,Mathematics,Week 4,Probability
+Primary 5,Mathematics,Week 5,Business math
+Primary 5,Mathematics,Week 6,Revision
+Primary 5,Mathematics,Week 7,Examination
+Primary 5,English Studies,Week 1,Critical reading
+Primary 5,English Studies,Week 2,Creative writing
+Primary 5,English Studies,Week 3,Research skills
+Primary 5,English Studies,Week 4,Advanced grammar
+Primary 5,English Studies,Week 5,Literature analysis
+Primary 5,English Studies,Week 6,Public speaking
+Primary 5,English Studies,Week 7,Revision
+Primary 5,English Studies,Week 8,Examination
+Primary 5,Basic Science & Technology,Week 1,Scientific method
+Primary 5,Basic Science & Technology,Week 2,Earth science
+Primary 5,Basic Science & Technology,Week 3,Space science
+Primary 5,Basic Science & Technology,Week 4,Technology design
+Primary 5,Basic Science & Technology,Week 5,Revision
+Primary 5,Basic Science & Technology,Week 6,Examination
+Primary 5,Civic Education,Week 1,Political parties
+Primary 5,Civic Education,Week 2,Elections
+Primary 5,Civic Education,Week 3,Rule of law
+Primary 5,Civic Education,Week 4,Revision
+Primary 5,Civic Education,Week 5,Examination
+Primary 5,Social Studies,Week 1,Democracy in Nigeria
+Primary 5,Social Studies,Week 2,Economic development
+Primary 5,Social Studies,Week 3,Social issues
+Primary 5,Social Studies,Week 4,Revision
+Primary 5,Social Studies,Week 5,Examination
+Primary 5,Cultural & Creative Arts,Week 1,Art appreciation
+Primary 5,Cultural & Creative Arts,Week 2,Music composition
+Primary 5,Cultural & Creative Arts,Week 3,Theatre arts
+Primary 5,Cultural & Creative Arts,Week 4,Revision
+Primary 5,Cultural & Creative Arts,Week 5,Examination
+Primary 5,Physical & Health Education,Week 1,Advanced sports
+Primary 5,Physical & Health Education,Week 2,Fitness
+Primary 5,Physical & Health Education,Week 3,Health promotion
+Primary 5,Physical & Health Education,Week 4,Revision
+Primary 5,Physical & Health Education,Week 5,Examination
+Primary 5,Computer Studies,Week 1,Programming logic
+Primary 5,Computer Studies,Week 2,Database basics
+Primary 5,Computer Studies,Week 3,Web basics
+Primary 5,Computer Studies,Week 4,Revision
+Primary 5,Computer Studies,Week 5,Examination
+Primary 5,Security Education,Week 1,Community policing
+Primary 5,Security Education,Week 2,Conflict resolution
+Primary 5,Security Education,Week 3,Revision
+Primary 5,Security Education,Week 4,Examination
+Primary 5,History,Week 1,World history
+Primary 5,History,Week 2,Contemporary issues
+Primary 5,History,Week 3,Revision
+Primary 5,History,Week 4,Examination
+Primary 5,Christian Religious Knowledge,Week 1,Comparative religion
+Primary 5,Christian Religious Knowledge,Week 2,Christian living
+Primary 5,Christian Religious Knowledge,Week 3,Revision
+Primary 5,Christian Religious Knowledge,Week 4,Examination
+Primary 5,Islamic Religious Studies,Week 1,Contemporary issues
+Primary 5,Islamic Religious Studies,Week 2,Islamic values
+Primary 5,Islamic Religious Studies,Week 3,Revision
+Primary 5,Islamic Religious Studies,Week 4,Examination
+Primary 5,Yoruba/Igbo/Hausa,Week 1,Creative writing
+Primary 5,Yoruba/Igbo/Hausa,Week 2,Drama production
+Primary 5,Yoruba/Igbo/Hausa,Week 3,Cultural studies
+Primary 5,Yoruba/Igbo/Hausa,Week 4,Revision
+Primary 5,Yoruba/Igbo/Hausa,Week 5,Examination
+Primary 5,Agricultural Science,Week 1,Modern farming
+Primary 5,Agricultural Science,Week 2,Agribusiness
+Primary 5,Agricultural Science,Week 3,Environmental conservation
+Primary 5,Agricultural Science,Week 4,Revision
+Primary 5,Agricultural Science,Week 5,Examination
+Primary 5,Home Economics,Week 1,Entrepreneurship
+Primary 5,Home Economics,Week 2,Consumer education
+Primary 5,Home Economics,Week 3,Family life
+Primary 5,Home Economics,Week 4,Revision
+Primary 5,Home Economics,Week 5,Examination
+Primary 5,French Language,Week 1,Advanced grammar
+Primary 5,French Language,Week 2,Reading comprehension
+Primary 5,French Language,Week 3,Cultural awareness
+Primary 5,French Language,Week 4,Revision
+Primary 5,French Language,Week 5,Examination

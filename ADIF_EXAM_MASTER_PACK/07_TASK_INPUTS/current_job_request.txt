@@ -1,0 +1,16 @@
+CURRENT TASK
+
+Class: Basic 1
+Subject: Mathematics
+Term: First Term
+Difficulty: 2/5
+Output: Slide deck
+
+Special rules:
+- Use the ADIF logo
+- Slide 2 must not repeat the header
+- Put diagrams directly inside the exact questions that need them
+- No diagram bank
+- Section C must contain 5 questions
+- Pupils answer any THREE (3)
+- Every theory question must have (a) and (b)

@@ -42,3 +42,28 @@ AI-native repository for generating ADIF School primary exam papers from approve
 
 ## Vercel frontend bootstrap
 Use `CODEX_VERCEL_NEXTJS_PROMPT.txt` as the production prompt to scaffold a Vercel-ready Next.js teacher/admin interface inside this repository.
+
+## Web app (Next.js) local development
+1. Install dependencies:
+   - `npm install`
+2. Start development server:
+   - `npm run dev`
+3. Open:
+   - `http://localhost:3000`
+
+### Build and run production locally
+- `npm run build`
+- `npm run start`
+
+### API routes included
+- `POST /api/syllabus/check` → local-first syllabus verification + discovery fallback response
+- `POST /api/syllabus/discover` → placeholder discovery trigger route
+- `POST /api/exams/submit` → blocks unverified syllabus and accepts only verified-local jobs
+
+### Vercel deployment readiness
+1. Import this GitHub repository into Vercel.
+2. Framework preset: **Next.js** (auto-detected).
+3. Add environment variables from `.env.example`.
+4. Deploy; future pushes auto-redeploy.
+
+Current discovery and exam generation integrations are scaffolded with placeholders for official-source crawling and PPTX creation services.

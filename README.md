@@ -1,69 +1,40 @@
-# adif-exam-system
+# ADIF Exam System (Repo-Only Workflow)
 
-AI-native repository for generating ADIF School primary exam papers from approved schemes of work.
+This repository is now a **repo-only exam generation system**.
 
-## Core files
-- `MASTER_PROMPT.txt`
-- `TEMPLATE_SPEC.md`
-- `SUBJECT_RULES.md`
-- `WORKFLOW_CHECKLIST.md`
-- `AI_INSTRUCTIONS.md`
-- `REQUEST_TEMPLATE.txt`
-- `SYLLABUS_DISCOVERY_PROMPT.txt`
-- `SUBJECT_NAME_MAPPINGS.md`
-- `CODEX_VERCEL_NEXTJS_PROMPT.txt`
+## What changed
+- No Vercel deployment
+- No Next.js application
+- No frontend or web interface
+- No API routes
+- No multi-branch workflow
 
-## Data folders
+## Source of truth
+The **GitHub repository** is the only source of truth for generating exams.
+
+## Branch policy
+- Work directly on `main` only.
+- Do not create feature branches for exam-generation tasks.
+
+## Core workflow
+1. Read and follow the instruction files in this repository (`MASTER_PROMPT.txt`, `TEMPLATE_SPEC.md`, `SUBJECT_RULES.md`, and related docs).
+2. Use the source materials and assets in this repository.
+3. Generate the requested exam slides as a PPTX file.
+4. Save every generated PPTX into `generated-papers/`.
+
+## Required folders
 - `assets/`
+- `archive/`
 - `samples/`
-- `source-materials/NERDC_Scheme_of_Work_2025_2026/`
-- `source-materials/NERDC_Scheme_of_Work_2025_2026/SYLLABUS_DISCOVERY_LOG.md`
+- `source-materials/`
+- `generated-papers/`
 
-## Archive
-- `archive/ADIF_EXAM_MASTER_PACK/`
+## How to generate an exam with AI
+Example prompt:
 
-## 10 production enhancements to wire in next
-1. **Request parser + validator**: Parse user prompts like `Primary 3 | Mathematics | Second Term` and validate class, subject, and term before generation.
-2. **Topic coverage mapper**: Build automatic mapping from scheme topics to generated questions with coverage checks.
-3. **Question difficulty balancer**: Score each question and enforce target difficulty distribution (easy/medium/hard profile).
-4. **Diagram generation pipeline**: Add reusable diagram templates (number lines, shapes, labeled science sketches) auto-inserted inside relevant questions.
-5. **Question bank with deduplication**: Store approved questions and prevent near-duplicate reuse with similarity checks.
-6. **Exam QA engine**: Run rules to verify section counts, theory subparts `(a)/(b)`, header usage, and slide constraints.
-7. **PPTX auto-render service**: Convert structured JSON output directly to branded 2-slide `.pptx` files.
-8. **Versioned syllabus index**: Keep all syllabus files indexed with metadata and support yearly roll-forward updates.
-9. **Teacher review workflow**: Add draft → review → approve states with comments and revision history.
-10. **Audit and analytics dashboard**: Track generation jobs, failure reasons, approval turnaround, and subject coverage trends.
+> Use this repo to generate Basic 1 Mathematics First Term exam and save it to generated-papers/Basic_1_Mathematics_First_Term.pptx.
 
-## 3 webpage-style interfaces for always-on engine communication
-1. **Teacher Portal (Web App)**: Authenticated dashboard where staff submit exam requests and download generated slides.
-2. **Admin Control Panel (Web App)**: Manage syllabus uploads, templates, prompt rules, and approval workflows.
-3. **Job Monitor + Chat Console (Web App)**: Real-time page showing queue status, generation logs, and a chat input for engine commands.
-
-
-## Vercel frontend bootstrap
-Use `CODEX_VERCEL_NEXTJS_PROMPT.txt` as the production prompt to scaffold a Vercel-ready Next.js teacher/admin interface inside this repository.
-
-## Web app (Next.js) local development
-1. Install dependencies:
-   - `npm install`
-2. Start development server:
-   - `npm run dev`
-3. Open:
-   - `http://localhost:3000`
-
-### Build and run production locally
-- `npm run build`
-- `npm run start`
-
-### API routes included
-- `POST /api/syllabus/check` → local-first syllabus verification + discovery fallback response
-- `POST /api/syllabus/discover` → placeholder discovery trigger route
-- `POST /api/exams/submit` → blocks unverified syllabus and accepts only verified-local jobs
-
-### Vercel deployment readiness
-1. Import this GitHub repository into Vercel.
-2. Framework preset: **Next.js** (auto-detected).
-3. Add environment variables from `.env.example`.
-4. Deploy; future pushes auto-redeploy.
-
-Current discovery and exam generation integrations are scaffolded with placeholders for official-source crawling and PPTX creation services.
+## Notes for AI sessions
+- Treat this repo as the complete working environment.
+- Follow repository instruction files exactly.
+- Keep output artifacts (PPTX files) in `generated-papers/`.

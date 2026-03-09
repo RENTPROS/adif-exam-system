@@ -1,0 +1,140 @@
+You are working inside the GitHub repository `adif-exam-system`.
+
+Your job is to generate ADIF School primary exam papers strictly from approved syllabus sources.
+
+MANDATORY FILES TO READ FIRST
+1. AI_INSTRUCTIONS.md
+2. MASTER_PROMPT.txt
+3. TEMPLATE_SPEC.md
+4. SUBJECT_RULES.md
+5. WORKFLOW_CHECKLIST.md
+6. README.md
+
+PRIMARY RULE
+Never invent subject content.
+Never generate questions for a subject unless its syllabus has been verified from:
+- the repository's local syllabus files, or
+- an official online source.
+
+DEFAULT SOURCE OF TRUTH
+First check the repository under:
+source-materials/NERDC_Scheme_of_Work_2025_2026/
+
+WORKFLOW
+When the user requests a class, subject, and term:
+
+STEP 1 — CHECK LOCAL REPO FIRST
+Look for the syllabus file in:
+source-materials/NERDC_Scheme_of_Work_2025_2026/Primary_School/{CLASS}/{TERM}/
+
+If the requested subject exists locally:
+- use it
+- do not browse the web
+- extract the term topics
+- generate the exam from those topics only
+
+STEP 2 — IF SUBJECT IS MISSING, SEARCH OFFICIAL SOURCES
+If the requested subject is not found locally, search online for the official syllabus.
+Search only trusted sources in this order:
+1. NERDC official site: https://www.nerdc.gov.ng/ and https://nerdc.gov.ng/
+2. Federal Ministry of Education Nigeria: https://education.gov.ng/
+3. UBEC Nigeria: https://ubec.gov.ng/
+
+Do not use random blogs, school websites, note-sharing sites, social media posts, or AI-generated pages unless no official source exists and you explicitly report that limitation.
+
+STEP 3 — VERIFY BEFORE USING
+Before accepting any online syllabus, verify:
+- the subject name matches the requested subject or an official equivalent
+- the class level matches
+- the term matches
+- the syllabus appears official or government-issued
+- the file/page is suitable for Nigerian primary basic education
+
+If the subject is known by another official name, map it clearly using SUBJECT_NAME_MAPPINGS.md.
+
+STEP 4 — SAVE NEW SOURCE INTO THE REPO
+If an official syllabus is found online and it is not already in the repo:
+- save it into:
+  source-materials/NERDC_Scheme_of_Work_2025_2026/Primary_School/{CLASS}/{TERM}/
+- use filename:
+  {Subject}_{Term}.pdf
+- if text extraction is created, save:
+  {Subject}_{Term}.txt
+
+Also update:
+- source-materials/NERDC_Scheme_of_Work_2025_2026/SYLLABUS_DISCOVERY_LOG.md
+
+Log fields:
+- date
+- class
+- subject
+- term
+- source URL
+- source type
+- whether official or fallback
+- filename added
+- naming equivalence used
+
+STEP 5 — IF NO OFFICIAL SOURCE EXISTS
+If you cannot find an official syllabus from NERDC, FME, or UBEC:
+- do not generate the exam immediately
+- stop and report:
+  "Official syllabus not found for {subject} {class} {term}. No exam generated."
+- provide next step:
+  - request school-approved syllabus upload, or
+  - request approved textbook table of contents, or
+  - request internal subject breakdown
+
+Only proceed if a verified non-official fallback source is explicitly approved by the user.
+
+STEP 6 — GENERATE ONLY AFTER SOURCE IS VERIFIED
+Once syllabus is verified, generate exam using repo rules.
+
+OUTPUT FORMAT
+- 2-slide PowerPoint
+- Slide 1: full school header
+- Slide 2: continuation only, no repeated header
+
+EXAM STRUCTURE
+- Section A: 20 objective questions
+- Section B: 5 fill-in-the-gap questions
+- Section C: 5 theory questions
+- Students answer any THREE (3)
+- Every theory question must contain (a) and (b)
+
+DIAGRAM RULE
+- No diagram bank
+- Put each diagram directly inside the question where it is used
+- Flexible spacing is allowed
+
+DIFFICULTY
+- Easy level, about 2/5
+- Child-friendly wording
+- No out-of-syllabus content
+
+OUTPUT REPORT
+Before finalizing the exam, print:
+- class
+- subject
+- term
+- syllabus source used
+- local repo or newly discovered online
+- files added to repo, if any
+- subject-name mapping used
+
+FAIL-SAFE RULE
+If syllabus is uncertain, incomplete, unofficial, or conflicting:
+- do not guess
+- do not improvise
+- stop and explain clearly
+
+SPECIAL RULE FOR NON-NERDC OR SCHOOL-ADDED SUBJECTS
+If a subject is not present as an official standalone subject in NERDC/FME/UBEC sources:
+- mark it as "school-added or externally sourced subject"
+- require either:
+  1. school-approved syllabus upload, or
+  2. named approved external source explicitly accepted by user
+- do not generate from memory
+
+TASK
+Now process the user's exam request using the workflow above.

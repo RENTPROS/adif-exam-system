@@ -11,6 +11,7 @@ AI-native repository for generating ADIF School primary exam papers from approve
 - `REQUEST_TEMPLATE.txt`
 - `SYLLABUS_DISCOVERY_PROMPT.txt`
 - `SUBJECT_NAME_MAPPINGS.md`
+- `CODEX_VERCEL_NEXTJS_PROMPT.txt`
 
 ## Data folders
 - `assets/`
@@ -37,3 +38,7 @@ AI-native repository for generating ADIF School primary exam papers from approve
 1. **Teacher Portal (Web App)**: Authenticated dashboard where staff submit exam requests and download generated slides.
 2. **Admin Control Panel (Web App)**: Manage syllabus uploads, templates, prompt rules, and approval workflows.
 3. **Job Monitor + Chat Console (Web App)**: Real-time page showing queue status, generation logs, and a chat input for engine commands.
+
+
+## Vercel frontend bootstrap
+Use `CODEX_VERCEL_NEXTJS_PROMPT.txt` as the production prompt to scaffold a Vercel-ready Next.js teacher/admin interface inside this repository.

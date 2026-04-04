@@ -38,3 +38,7 @@ Example prompt:
 - Treat this repo as the complete working environment.
 - Follow repository instruction files exactly.
 - Keep output artifacts (PPTX files) in `generated-papers/`.
+
+
+## Additional reference
+- `CLOUDFLARE_CUSTOM_GPT_ACTION_GUIDE.md` - notes for building a Cloudflare API custom GPT action.
